@@ -1,0 +1,79 @@
+*{   
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+li {
+    display: inline;
+}
+
+ul{
+    list-style-type: none;
+   
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(60, 117, 152);
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 25px 23px;
+    text-decoration: none;
+    float: right;
+    font-size: 20px;
+}
+li a:hover {
+    background-color:rgb(104, 175, 220);
+} 
+.gel{
+    float: left;
+    
+}
+.active{
+    background-color:rgb(104, 175, 220);
+}
+
+
+.tl{
+    padding: 0px 23px;
+}
+   /* .tulisan{
+    padding: 50px 0px ;
+    background-color:whitesmoke;
+    
+}   */
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 40px;
+}
+.ppts{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.90)),url(Steam-Library3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.rdm{
+        position: absolute;
+        width: 50%;
+        left: 7%;
+        top: 30%;
+}
+.rdm p{
+    color: white;
+    top: 5%;
+    margin: 20px 0px;
+}
+button{
+    border-radius: 20px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(60, 117, 152);
+    margin: 9px 0px;
+    padding: 10px 24px;
+}
+
